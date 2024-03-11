@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&family=Whisper&display=swap");
+
+.productts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.product-heading {
+  font-size: 35px;
+  font-weight: 600;
+  color: orange;
+  border-bottom: 2px solid #ffff;
+  margin-bottom: 30px;
+  font-family: "Whisper", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ul-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.li-container {
+  display: flex;
+  border: 2px solid orange;
+  padding: 20px;
+  width: 30%;
+  gap: 20px;
+  border-radius: 6px;
+}
+
+.ul-container li h1 {
+  font-size: 20px;
+  width: 50%;
+}
+
+.link {
+  text-decoration: none;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.main-img {
+  width: 130px;
+  height: 250px;
+  border-radius: 5px;
+  /* border: 3px dotted orange; */
+}
